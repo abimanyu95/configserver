@@ -1,0 +1,12 @@
+server:
+   port: 8741
+spring:
+  #profiles:
+   # active: native
+  cloud:
+     config:
+       server:
+          git:
+            uri: https://github.com/abimanyu95/configurationfiles
+           #native:
+            #  searchLocations: C:/Users/manyu/Desktop/dev/springiosample/configurationfiles
